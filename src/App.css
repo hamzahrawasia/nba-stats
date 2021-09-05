@@ -1,0 +1,142 @@
+.background {
+  background-image: url('./nbabackground.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 2;
+
+}
+.background-overlay {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 7;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:75px 1fr;
+  /* display: flex;
+justify-content: space-around; */
+  /* margin-left: 30%; */
+}
+
+.cards-wrapper {
+display: flex;
+justify-content: space-around;
+}
+
+.search-box {
+/* margin-right: 20%; */
+min-height: 15%;
+grid-row: 3;
+grid-column: 5/9;
+/* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:75px 1fr; */
+/* display: inline-block; */
+/* justify-content: center;
+align-items: center; */
+/* margin-left: -55vw; */
+/* padding-top: 25px; */
+/* margin-top: 5vh; */
+border-radius: 15px 15px 15px 15px;
+/* display: block;
+align-items: center; */
+/* margin-top: 10vh; */
+  /* float: left;
+  padding: 0.50%;
+  border: blue;
+  margin-top: 4.5%;
+  margin-right: 16%;
+  font-size: 17px;
+  display: inline-block; */
+}
+
+.search-box2 {
+  min-height: 15vh;
+  grid-row: 3;
+  /* grid-column: 2; */
+  grid-column: 15/19;
+  border-radius: 15px 15px 15px 15px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55vw;
+  margin-top: -10vh;
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  align-items: center; */
+   
+}
+
+.search-bar{
+
+
+  width: 65%;
+  border: 13px solid rgb(54, 56, 211);
+  /* border-right: none; */
+  padding: 10px;
+  /* padding-top: 30px; */
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
+  color: rgb(247, 134, 12);  
+}
+
+.search-bar2{
+  /* grid-row: 3; */
+  width: 65%;
+  border: 13px solid rgb(199, 3, 12);
+  /* border-right: none;/ */
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
+  color: rgb(247, 134, 12);  
+}
+/* .search-box .search-bar2 {
+  float: right;
+  padding: 6px;
+  border: red;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+} */
+.select-season {
+  width: 50%;
+  /* grid-row: 3;
+  grid-column: 3/6; */
+  position: relative;
+  color: white;
+}
+.select-season2 {
+  width: 50%;
+  /* grid-row: 3;
+  grid-column: 3/6; */
+  position: relative;
+  color: white;
+}
+  .option{
+  width: 150%;
+  height: 20%;
+  grid-row: 3;
+  grid-column: 3/6;
+  /* margin-top: 4%; */
+}
+.season{
+  grid-row: 2;
+  width: 25%;
+  border: 13px solid rgb(54, 56, 211);
+  /* border-right: none; */
+  padding: 10px;
+  /* padding-top: 30px; */
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
+  color: rgb(247, 134, 12);  
+}

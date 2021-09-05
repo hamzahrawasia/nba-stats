@@ -1,0 +1,117 @@
+.br {
+    display: block;
+    margin-bottom: 1em;
+}
+.p{
+    font-size: xx-small;
+}
+
+.stat0 { 
+	display: inline;
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+    color: black;
+    font-size: 1.1vw;
+	/* font-weight: bold; */
+}
+.stat1 {
+	display: inline;
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+    font-size: 1.1vw;
+	/* font-weight: bold; */
+    color:green;
+}
+.stat2 {
+	display: inline;
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+    font-size: 1.1vw;
+	/* font-weight: bold; */
+    color:red;
+}
+.stat-label {
+	display: inline;
+	font-size: 1.5em;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+    color:black;
+    font-size: 1.1vw;
+}
+
+.name-label {
+	display: inline;
+	/* font-size: 1.5em; */
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+    color: black;
+    font-size: 1.5vw;
+}
+.team-label {
+	display: inline;
+	/* font-size: 1.5em; */
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+    color:black;
+    font-size: 1.2vw;
+}
+
+.stat-card1 {
+    max-width: 30%;
+    max-height: 55vh;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px;
+    /* margin: 30px; */
+    padding-left: 8vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./court.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    align-items: center;
+    min-width: 20%;
+    border: 13px solid rgb(54, 56, 211);
+    border-radius: 10px 10px 10px 10px;
+    margin: 0;
+}
+.stat-card2 {
+    max-width: 30%;
+    max-height: 55vh;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px;
+    /* margin: 30px; */
+    /* margin-top: -53vh; */
+    padding-left: 66vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background:white;
+    background-image: url('./court.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    align-items: center;
+    min-width: 20%;
+    border: 13px solid rgb(199, 3, 12);
+    border-radius: 10px 10px 10px 10px;
+}
